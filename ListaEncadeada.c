@@ -16,7 +16,7 @@ Node* creatingNode(int newValue){
         exit(EXIT_FAILURE);
     }
     newNode->value = newValue;
-    newNode->pNextNode = NULL;//setta o procimo nó como nulo
+    newNode->pNextNode = NULL;//setta o proximo nó como nulo
     return newNode;
 }
 
